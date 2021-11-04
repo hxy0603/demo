@@ -1,0 +1,36 @@
+td.h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #182c3a;
+  font-weight: bold;
+}
+
+td.d {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  font-family: 'DFKai-sb';
+}
+
+input.e {
+  font-size: 20px;
+  color: rgb(42, 20, 95);
+  font-weight: bold;
+  font-family: 'DFKai-sb';
+  position: relative;
+}
+body{
+  background-image: url("usus.png");
+  
+  background-repeat: no-repeat;
+  background-position:top 60px left 170px;
+  background-size: 80%;
+  background-attachment: scroll;
+  z-index: top;
+  font-family: 'DFKai-sb';
+  background-color: #ebe6d9;
+}
+
+.cd{
+  font-family: 'DFKai-sb';
+}
