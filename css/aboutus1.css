@@ -167,3 +167,20 @@ body{
 }
 div.ab{columns: 4;text-align: center;font-family: 'DFKai-sb';}
 div.cd{columns: 4;text-align: center;}
+button.b1{
+    font-size: 22px;
+    font-family:DFKai-sb ;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    width: 110px;
+    position: absolute;
+    left:1000px;
+    top: 50px;
+    z-index: 2;
+    cursor:pointer;
+    transition: color 0.2s linear;
+}
+button.b1:hover{
+    color: rgb(235, 198, 129);
+}
