@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聯絡我們</title>
+  <style>
+    @import url(contact.css)
+  </style>
+</head>
+
+<body >
+  
+  <div class="cd" align="center" >
+   <table border="1" >
+    <tr>
+      <td colspan="4" class="h1">
+        聯絡我們
+      </td>
+    </tr>
+    <tr>
+      <td class="d">姓名</td>
+      <td><input type="text" name="user_name" /></td><br>
+      <td class="d">性別</td>
+      <td class="d"><input type="radio" name="gender" value="男" />男生
+        <input type="radio" name="gender" value="女" />女生
+      </td>
+    </tr>
+    
+    <tr>
+      <td class="d">手機</td>
+      <td><input type="text" name="a" /></td>
+      <td class="d">市內電話</td>
+      <td><input type="text" name="b" /></td>
+    </tr>
+    <tr>
+      <td class="d">職業</td>
+      <td><input type="text" name="b" /></td>
+      <td class="d">e-mail</td>
+      <td  ><input type="text" name="c"  /></td>
+    </tr>
+    
+    <tr>
+      <td class="d">備註</td>
+      <td colspan="3"><textarea name="memo" cols="50" rows="5" wrap="hard"> </textarea>
+      </td>
+    </tr>
+  </table >
+  <form method="post" action="mailto:fanghyun.0802@gmail.com" enctype="text/plain">
+    <input type="submit"  value="送出" class="e" />
+  </form></div>
+  
+</body>
+
+</html>
